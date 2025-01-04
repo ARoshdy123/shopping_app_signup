@@ -15,3 +15,9 @@ A Flutter-based shopping application that allows users to sign up, and browse pr
 ### Applied Animation
 
 - `FadeTransition` : Fade transition applied on signup form before going to main page.
+
+### Adding Localization 
+
+- `Arabic` : Adding Arabic language
+- `English` : Adding English language
+
