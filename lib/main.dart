@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app_signup/screens/signup.dart';
 import 'package:shopping_app_signup/widgets/display_product.dart';
 import 'package:shopping_app_signup/widgets/grid_view.dart';
 import 'package:shopping_app_signup/widgets/hot_offers.dart';
@@ -13,7 +14,7 @@ class ShoppingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MainScreen(),
+      home: SignUpScreen(),
     );
   }
 }
