@@ -81,6 +81,14 @@ class _SignUpFormPageState extends State<SignUpFormPage> {
             validator: validateEmail,
           ),
           const SizedBox(height: 16),
+          // // Phone Number
+          // TextFormField(
+          //   decoration: const InputDecoration(
+          //     labelText: 'Phone Number',
+          //     prefixIcon: Icon(Icons.phone),
+          //   ),
+          //   keyboardType: TextInputType.phone,
+          // ),
 
           // Password
           TextFormField(
@@ -129,10 +137,13 @@ class _SignUpFormPageState extends State<SignUpFormPage> {
                         actions: [
                           TextButton(
                             onPressed: () {
-                              Navigator.of(context).push(
-                                MaterialPageRoute(builder: (context) => const MainScreen()),);
+                              Navigator.of(context).pushReplacement(
+                                PageRouteBuilder(pageBuilder: (context, animation1, animation2) => const MainScreen(),
+                                transitionsBuilder: (context, animation1, animation2, child){
+                                  return FadeTransition(opacity: animation1,child: child,);
+                                },transitionDuration: const Duration(milliseconds: 1000),),);
                             },
-                            child: Text('Okay'),
+                            child: const Text('Okay'),
                           )
                         ],
                       );
