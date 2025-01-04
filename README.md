@@ -1,16 +1,13 @@
 # shopping_app_signup
 
-A new Flutter project.
+A Flutter-based shopping application that allows users to sign up, and browse products.
 
-## Getting Started
+## Folder Structure
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `lib/`: Contains the main code for the application.
+    - `signup_form.dart`: Contains the sign-up form.
+    - `main.dart`: Entry point of the application.
+    - `screens/`: Contains different screens of the application.
+    - `widgets/`: Contains reusable widgets.
+    - `consts/url`: Contains url links to enhance the application style.
