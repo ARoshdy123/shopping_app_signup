@@ -81,14 +81,6 @@ class _SignUpFormPageState extends State<SignUpFormPage> {
             validator: validateEmail,
           ),
           const SizedBox(height: 16),
-          // // Phone Number
-          // TextFormField(
-          //   decoration: const InputDecoration(
-          //     labelText: 'Phone Number',
-          //     prefixIcon: Icon(Icons.phone),
-          //   ),
-          //   keyboardType: TextInputType.phone,
-          // ),
 
           // Password
           TextFormField(
