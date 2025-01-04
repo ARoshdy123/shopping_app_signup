@@ -141,7 +141,7 @@ class _SignUpFormPageState extends State<SignUpFormPage> {
                                 PageRouteBuilder(pageBuilder: (context, animation1, animation2) => const MainScreen(),
                                 transitionsBuilder: (context, animation1, animation2, child){
                                   return FadeTransition(opacity: animation1,child: child,);
-                                },transitionDuration: const Duration(milliseconds: 1000),),);
+                                },transitionDuration: const Duration(milliseconds: 1000),),); // page route and adding animation on it
                             },
                             child: const Text('Okay'),
                           )
